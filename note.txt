@@ -9,9 +9,7 @@ Start with google.com
 =======
 Start  w/ github
 
-0. Register
-=======
-﻿0. Register
+Introduction to git
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -24,8 +22,10 @@ Start  w/ github
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
 
 -- Git reset change
-revert current change
+revert current change in current directory
 $ git checkout -- .
+or
+$ git checkout -- *
 
 To show each log in one line
 $git log --oneline
@@ -48,10 +48,14 @@ Git add : ��ѧ�ҡ���ҧ������ǵ�ͧ������ git add ��͹�� git commit
 Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
 ================================
 
-###### git remote
+
+======= Good commit message =======
+	> ขึ้นต้นด้วย verb
+	> อธิบายเนื้อหาว่าทำอะไร
+
+======= git remote =======
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
-###### end git remote
 
 
 ===================== Git log to filter log with date range ============================
@@ -69,3 +73,9 @@ Git log to filter log with date range
 		-> git log --after="2014-7-1" --before="2014-7-4"
 
 ===================== Git log to filter log with date range ============================
+
+
+###### Git log to filter log with date range
+> git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
+###### end Git log to filter log with date range
+
