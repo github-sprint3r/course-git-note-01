@@ -44,6 +44,9 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
 
+Issue#6 - Git log to filter log with date range
+	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
+	example : git log --after="2015-09-12"
 
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
@@ -58,6 +61,11 @@ Git log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
+
+
+=========== Git log to show in pretty and graph ===========
+ - git log --oneline --decorate --graph
+================================
 
 ===================== Git log to filter log with date range ============================
 
