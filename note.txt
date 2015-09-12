@@ -3,11 +3,11 @@ Start with google.com
 To show each log in one line
 $git log --oneline
 
-Start with github.com
+=========  Start with github.com ==========
 1.Register user on www.github.com first 
 2.Create ssh on your computer and copy SSH keys to your github
 3.Create a new respository
 4.Create Repository name
 5.Choose Public and click create repository
-
+===========================================
 
