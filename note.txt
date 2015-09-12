@@ -1,4 +1,4 @@
-========= Introduction to git ============
+﻿========= Introduction to git =========
 ﻿Start  w/ github
 
 1. โครงสร้างโฟลเดอร์
@@ -96,6 +96,8 @@ Force commit with amend
 ==== Git commit ====
 $git commit
 ===========
+
+End
 
 
 =========== Git log to show in pretty and graph ===========
