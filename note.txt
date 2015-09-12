@@ -1,6 +1,8 @@
 Start  w/ github
 
 0. Register
+=======
+﻿0. Register
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -36,6 +38,7 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
 ###### end git remote
+
 
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
