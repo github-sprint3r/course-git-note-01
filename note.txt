@@ -11,6 +11,7 @@
 	> คุยกันเวลา push โค้ดขึ้น
 	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+5. ควรใช้ Repo เดียวกัน
 ===========================================
 
 
@@ -120,5 +121,14 @@ To close issue add 'fixed #[issue-number]'
 $ git commit -m 'Fixed #1 [issue name]'
 
 ====================================================
+=======
+###### end Git log to filter log with date range
+
+
+
+===================== How to solve conflict ? =====================
+How to solve conflict ?
+	แก้ไขไฟล์ ที่ conflict  
+
 
 
