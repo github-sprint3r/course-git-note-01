@@ -1,8 +1,6 @@
 Start  w/ github
 
-0. Register
-=======
-﻿0. Register
+Register
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
