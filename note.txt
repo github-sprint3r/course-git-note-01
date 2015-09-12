@@ -101,27 +101,14 @@ Force commit with amend
 
 ===================== Git commit =======================================================
 $git commit
-<<<<<<< HEAD
+
 $git commit -m “comment”
 ===========
 
 
-
-=========== Git log to show in pretty and graph ===========
-=======
-
-
-<<<<<<< HEAD
 =========== Git log to show in pretty and graph ===========
 $git log --oneline --decorate --graph
 
-=======
-
-=========== Git log to show in pretty and graph ========================================
->>>>>>> e27a8b0cc6e976ad7a5361eb10ff20fbf900b3a2
- - git log --oneline --decorate --graph
-=============================================
->>>>>>> 2497cafe7be3bd34ea539cc2a248ebdfd0c79b15
 
 
 ===================== Git log to filter log with date range ============================
