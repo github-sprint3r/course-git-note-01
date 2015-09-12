@@ -31,3 +31,28 @@ command : git remote <action> <name remote> url
 example : git remote add remote_name git@github.com:hello/hello
 ###### end git remote
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========Git commit============
+$git commit
+==============================
