@@ -28,7 +28,6 @@ Answer Under Each Issue Please.
 
 		Git status
 
-<<<<<<< HEAD
 0. Register
 
 1. โครงสร้างโฟลเดอร์
@@ -40,7 +39,6 @@ Answer Under Each Issue Please.
 	> คุยกันเวลา push โค้ดขึ้น
 	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
-=======
 
 -- Git reset change
 
