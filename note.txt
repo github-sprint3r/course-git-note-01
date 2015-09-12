@@ -111,8 +111,20 @@ $git commit
 
 
 
-===================== How to solve conflict ? =====================
-How to solve conflict ?
-	แก้ไขไฟล์ ที่ conflict  
+=========== To solve conflict ===========
+When there're conflict, the conflicted codes will be group like\
 
+<<<<< HEAD
+Your code line 1
+Your code line 2
+==========
+The other code line 1
+The other code line 2
+>>>>>>> <commit id>
 
+Fix it the way you think it suppose to be.
+Re add the file
+Re commit
+Re push
+Pray to god
+=============================================
