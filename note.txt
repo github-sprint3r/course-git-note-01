@@ -13,6 +13,8 @@ Start  w/ github
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
 
 -- Git reset change
+revert current change
+$ git checkout -- .
 
 =======
 To show each log in one line
