@@ -2,3 +2,8 @@ Start with google.com
 
 To show each log in one line
 $git log --oneline
+
+
+=========== Git add ============
+Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
+================================
