@@ -1,1 +1,4 @@
 Start with google.com
+
+#Git log to show in pretty and graph
+ - git log --oneline --decorate --graph
