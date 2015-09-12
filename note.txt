@@ -1,6 +1,8 @@
 Start  w/ github
 
 0. Register
+=======
+﻿0. Register
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -39,3 +41,19 @@ command : git remote <action> <name remote> url
 example : git remote add remote_name git@github.com:hello/hello
 ###### end git remote
 
+
+===================== Git log to filter log with date range ============================
+Git log to filter log with date range
+	การแสดงการทำงาน ของการทำงาน
+		ตัวอย่างการเรียกใช้งานคำสั่ง
+		-> git log --oneline
+		-> git log --oneline --decorate 
+		-> git log --oneline --decorate --graph
+		-> git log --stat
+		
+		Git Log to filter log with date range
+		-> git log --after="2014-7-1"
+		-> get log --after="yesterday"
+		-> git log --after="2014-7-1" --before="2014-7-4"
+
+===================== Git log to filter log with date range ============================
