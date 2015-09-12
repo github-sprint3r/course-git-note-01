@@ -1,8 +1,9 @@
-========= Introduction to git =========
+﻿========= Introduction to git ============
 ﻿Start  w/ github
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
+	> .gitignore ตั้งแต่ขึ้นตอนนี้
 2. การใช้ Trunk / Branch / Tag
 	> Branch ไม่ควรเกิน 3 ซึ่ง 3 ก็ถือว่าเยอะมาก
 	> Tag ตรง Release
@@ -10,19 +11,24 @@
 	> คุยกันเวลา push โค้ดขึ้น
 	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+===========================================
+
 
 =========  Git reset change ==========
 revert current change in current directory
 $ git checkout -- .
 or
 $ git checkout -- *
+===========================================
 
 
-To show each log in one line
+=========  To show each log in one line =========
 $git log --oneline
+===========================================
+
 
 =========  Start with github.com ==========
-1.Register user on www.github.com first 
+1.Register user on www.github.com first
 2.Create ssh on your computer and copy SSH keys to your github
 3.Create a new respository
 4.Create Repository name
@@ -38,20 +44,35 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 ======= Good commit message =======
 	> ขึ้นต้นด้วย verb
 	> อธิบายเนื้อหาว่าทำอะไร
+================================
 
-======= git remote ====================================================================
-command : git remote <action> <name remote> url 
+
+======= git remote ================
+command : git remote <action> <name remote> url
+
 example : git remote add remote_name git@github.com:hello/hello
-
+=============================================
 
 ==========Force commit with amend =====================================================
  command : git commit --amend <action> 
+=======
+==========Force commit with amend ===========
+ command : git commit --amend <action>
+
  for amend same commit if you want to add same commitdetail
 =======================================================================================
 
-Issue#6 - Git log to filter log with date range
+
+======= Git log to filter log with date range =======
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
+=============================================
+
+
+======= Issue#6 - Git log to filter log with date range =======
+	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
+	example : git log --after="2015-09-12"
+===============================================================
 
 
 ===================== Git log to filter log with date range ============================
@@ -59,34 +80,37 @@ Git log to filter log with date range
 	การแสดงการทำงาน ของการทำงาน
 		ตัวอย่างการเรียกใช้งานคำสั่ง
 		-> git log --oneline
-		-> git log --oneline --decorate 
+		-> git log --oneline --decorate
 		-> git log --oneline --decorate --graph
 		-> git log --stat
-		
+
 		Git Log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
+=================================================================================
 
 
-===================== Force commit with amend =========================================
+===================== Force commit with amend ======================================
 Force commit with amend
 	การเพิ่ม commit file เข้า commit ล่าสุด
 	git commit <filename> --amend
-
+========================================================================================
 
 
 ===================== Git commit =======================================================
 $git commit
 
+
+
 =========== Git log to show in pretty and graph ========================================
  - git log --oneline --decorate --graph
+=============================================
 
 
 ===================== Git log to filter log with date range ============================
-
-###### Git log to filter log with date range
 > git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
+
 ###### end Git log to filter log with date range
 
 ===================== Integrate issue tracker with github ===============================
@@ -95,6 +119,6 @@ $ git commit -m '#1 [issue name]'
 To close issue add 'fixed #[issue-number]'
 $ git commit -m 'Fixed #1 [issue name]'
 
-
+====================================================
 
 
