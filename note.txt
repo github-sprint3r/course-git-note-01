@@ -45,6 +45,7 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 	> อธิบายเนื้อหาว่าทำอะไร
 ================================
 
+
 ======= git remote ================
 command : git remote <action> <name remote> url
 example : git remote add remote_name git@github.com:hello/hello
@@ -58,6 +59,12 @@ example : git remote add remote_name git@github.com:hello/hello
 
 
 ======= Git log to filter log with date range =======
+	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
+	example : git log --after="2015-09-12"
+=============================================
+
+
+======= Issue#6 - Git log to filter log with date range =======
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
 =============================================
@@ -79,65 +86,23 @@ Git log to filter log with date range
 =============================================
 
 
+===================== Force commit with amend =====================
+Force commit with amend
+	การเพิ่ม commit file เข้า commit ล่าสุด
+	git commit <filename> --amend
+=============================================
+
+
 ==== Git commit ====
 $git commit
-====================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-========Git commit============
-$git commit
-==============================
-
-
-
-
-
-
-
-
-===================== Git log to filter log with date range ============================
->>>>>>> 7efb8414b0d9c82e1271a9cfb8531eb92e578e80
-=======
->>>>>>> 5871f4bc80bc65d684e13b716c833059f03058a4
-=======
+===========
 
 
 =========== Git log to show in pretty and graph ===========
  - git log --oneline --decorate --graph
-================================
+=============================================
+
 
 ===================== Git log to filter log with date range ============================
-
-###### Git log to filter log with date range
 > git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
-###### end Git log to filter log with date range
-<<<<<<< HEAD
->>>>>>> 2870d5a478e3e8ecfe632ccd0a92d6c71695f0a8
-=======
-
->>>>>>> 710344e67e0f578d7019b943a3e9023370e12a30
+=============================================
