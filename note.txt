@@ -1,5 +1,33 @@
 Start  w/ github
 
+Answer Under Each Issue Please.
+
+		How to solve conflict ?
+
+		Git log to show in pretty and graph
+
+		Git reset change
+
+		Introduction to git
+
+		Force commit with amend
+
+		Integrate issue tracker with github
+
+		Good commit message
+
+		Git log to filter log with date range
+
+		Start with github.com
+
+		Git Remote
+
+		Git commit
+
+		Git add
+
+		Git status
+
 <<<<<<< HEAD
 0. Register
 
