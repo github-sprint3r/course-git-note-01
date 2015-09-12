@@ -96,7 +96,9 @@ Force commit with amend
 
 ==== Git commit ====
 $git commit
+$git commit -m “comment”
 ===========
+
 
 
 =========== Git log to show in pretty and graph ===========
