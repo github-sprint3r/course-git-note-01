@@ -1,3 +1,5 @@
+Start  w/ github
+
 ﻿0. Register
 
 1. โครงสร้างโฟลเดอร์
@@ -16,6 +18,14 @@
 To show each log in one line
 $git log --oneline
 
+=========  Start with github.com ==========
+1.Register user on www.github.com first 
+2.Create ssh on your computer and copy SSH keys to your github
+3.Create a new respository
+4.Create Repository name
+5.Choose Public and click create repository
+===========================================
+
 
 =========== Git add ============
 Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
@@ -25,3 +35,8 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 -- Good commit message
 	> ขึ้นต้นด้วย verb
 	> อธิบายเนื้อหาว่าทำอะไร
+=======
+###### git remote
+command : git remote <action> <name remote> url 
+example : git remote add remote_name git@github.com:hello/hello
+###### end git remote
