@@ -50,14 +50,18 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 
 ======= git remote ================
 command : git remote <action> <name remote> url
+
 example : git remote add remote_name git@github.com:hello/hello
 =============================================
 
-
+==========Force commit with amend =====================================================
+ command : git commit --amend <action>
+=======
 ==========Force commit with amend ===========
  command : git commit --amend <action>
+
  for amend same commit if you want to add same commitdetail
-=============================================
+=======================================================================================
 
 
 ======= Git log to filter log with date range =======
@@ -69,7 +73,7 @@ example : git remote add remote_name git@github.com:hello/hello
 ======= Issue#6 - Git log to filter log with date range =======
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
-=============================================
+===============================================================
 
 
 ===================== Git log to filter log with date range ============================
@@ -85,28 +89,39 @@ Git log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
-=============================================
+=================================================================================
 
 
-===================== Force commit with amend =====================
+===================== Force commit with amend ======================================
 Force commit with amend
 	การเพิ่ม commit file เข้า commit ล่าสุด
 	git commit <filename> --amend
-=============================================
+========================================================================================
 
 
-==== Git commit ====
+===================== Git commit =======================================================
 $git commit
-===========
 
 
-=========== Git log to show in pretty and graph ===========
+
+=========== Git log to show in pretty and graph ========================================
  - git log --oneline --decorate --graph
 =============================================
 
 
 ===================== Git log to filter log with date range ============================
 > git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
+
+###### end Git log to filter log with date range
+
+===================== Integrate issue tracker with github ===============================
+Add #[issue-number] into commit message
+$ git commit -m '#1 [issue name]'
+To close issue add 'fixed #[issue-number]'
+$ git commit -m 'Fixed #1 [issue name]'
+
+====================================================
+=======
 ###### end Git log to filter log with date range
 
 
