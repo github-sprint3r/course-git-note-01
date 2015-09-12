@@ -1,8 +1,9 @@
-========= Introduction to git ============
+﻿========= Introduction to git ============
 ﻿Start  w/ github
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
+	> .gitignore ตั้งแต่ขึ้นตอนนี้
 2. การใช้ Trunk / Branch / Tag
 	> Branch ไม่ควรเกิน 3 ซึ่ง 3 ก็ถือว่าเยอะมาก
 	> Tag ตรง Release
@@ -112,4 +113,5 @@ $git commit
 ===================== How to solve conflict ? =====================
 How to solve conflict ?
 	แก้ไขไฟล์ ที่ conflict  
+
 
