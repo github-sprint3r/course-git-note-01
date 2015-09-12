@@ -55,7 +55,7 @@ example : git remote add remote_name git@github.com:hello/hello
 =============================================
 
 ==========Force commit with amend =====================================================
- command : git commit --amend <action> 
+ command : git commit --amend <action>
 =======
 ==========Force commit with amend ===========
  command : git commit --amend <action>
@@ -135,9 +135,20 @@ $ git commit -m 'Fixed #1 [issue name]'
 
 
 
-===================== How to solve conflict ? =====================
-How to solve conflict ?
-	แก้ไขไฟล์ ที่ conflict  
+=========== To solve conflict ===========
+When there're conflict, the conflicted codes will be group like\
 
+<<<<< HEAD
+Your code line 1
+Your code line 2
+==========
+The other code line 1
+The other code line 2
+>>>>>>> <commit id>
 
-
+Fix it the way you think it suppose to be.
+Re add the file
+Re commit
+Re push
+Pray to god
+=============================================
