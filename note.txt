@@ -1,5 +1,3 @@
-Start  w/ github
-
 ========= Introduction to git =========
 ﻿Start  w/ github
 
