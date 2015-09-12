@@ -101,12 +101,8 @@ $git commit
 
 
 =========== Git log to show in pretty and graph ===========
-<<<<<<< HEAD
 $git log --oneline --decorate --graph
-=======
- - git log --oneline --decorate --graph
-=============================================
->>>>>>> ac469581ec804816906d09368133a0aa62713eeb
+
 
 
 ===================== Git log to filter log with date range ============================
