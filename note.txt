@@ -10,7 +10,9 @@ Start with google.com
 Start  w/ github
 =======
 ﻿Start  w/ github
+=======
 
+﻿Start  w/ github
 Introduction to git
 
 1. โครงสร้างโฟลเดอร์
@@ -59,6 +61,12 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
 
+==========Force commit with amend ===========
+ command : git commit --amend <action> 
+ for amend same commit if you want to add same commitdetail
+=============================================
+=======
+=======
 Issue#6 - Git log to filter log with date range
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
