@@ -1,34 +1,4 @@
-﻿Start  w/ github
-
-Answer Under Each Issue Please.
-
-		How to solve conflict ?
-
-		Git log to show in pretty and graph
-
-		Git reset change
-
-		Introduction to git
-
-		Force commit with amend
-
-		Integrate issue tracker with github
-
-		Good commit message
-
-		Git log to filter log with date range
-
-		Start with github.com
-
-		Git Remote
-
-		Git commit
-
-		Git add
-
-		Git status
-
-0. Register
+﻿0. Register
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -50,4 +20,3 @@ $git log --oneline
 =========== Git add ============
 Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
 ================================
->>>>>>> 5ab9387511d1edfcab28053008eea86b0f427284
