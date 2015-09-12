@@ -13,8 +13,10 @@ Introduction to git
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
 
 -- Git reset change
-revert current change
+revert current change in current directory
 $ git checkout -- .
+or
+$ git checkout -- *
 
 =======
 To show each log in one line
@@ -60,6 +62,7 @@ Git log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -109,3 +112,11 @@ $git commit
 >>>>>>> 7efb8414b0d9c82e1271a9cfb8531eb92e578e80
 =======
 >>>>>>> 5871f4bc80bc65d684e13b716c833059f03058a4
+=======
+
+===================== Git log to filter log with date range ============================
+
+###### Git log to filter log with date range
+> git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
+###### end Git log to filter log with date range
+>>>>>>> 2870d5a478e3e8ecfe632ccd0a92d6c71695f0a8
