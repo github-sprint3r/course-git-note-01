@@ -68,6 +68,11 @@ Git log to filter log with date range
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
 
+
+=========== Git log to show in pretty and graph ===========
+ - git log --oneline --decorate --graph
+================================
+
 ===================== Git log to filter log with date range ============================
 
 ###### Git log to filter log with date range
