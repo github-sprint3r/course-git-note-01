@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Start  w/ github
-=======
->>>>>>> 710344e67e0f578d7019b943a3e9023370e12a30
-
-
 ========= Introduction to git =========
 ﻿Start  w/ github
 
@@ -16,19 +10,24 @@ Start  w/ github
 	> คุยกันเวลา push โค้ดขึ้น
 	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+===========================================
+
 
 =========  Git reset change ==========
 revert current change in current directory
 $ git checkout -- .
 or
 $ git checkout -- *
+===========================================
 
 
-To show each log in one line
+=========  To show each log in one line =========
 $git log --oneline
+===========================================
+
 
 =========  Start with github.com ==========
-1.Register user on www.github.com first 
+1.Register user on www.github.com first
 2.Create ssh on your computer and copy SSH keys to your github
 3.Create a new respository
 4.Create Repository name
@@ -44,41 +43,40 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 ======= Good commit message =======
 	> ขึ้นต้นด้วย verb
 	> อธิบายเนื้อหาว่าทำอะไร
+================================
 
 ======= git remote ================
-command : git remote <action> <name remote> url 
+command : git remote <action> <name remote> url
 example : git remote add remote_name git@github.com:hello/hello
+=============================================
+
 
 ==========Force commit with amend ===========
- command : git commit --amend <action> 
+ command : git commit --amend <action>
  for amend same commit if you want to add same commitdetail
 =============================================
-=======
-=======
-Issue#6 - Git log to filter log with date range
+
+
+======= Git log to filter log with date range =======
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
+=============================================
 
 
-
-
-=======
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
 	การแสดงการทำงาน ของการทำงาน
 		ตัวอย่างการเรียกใช้งานคำสั่ง
 		-> git log --oneline
-		-> git log --oneline --decorate 
+		-> git log --oneline --decorate
 		-> git log --oneline --decorate --graph
 		-> git log --stat
-		
+
 		Git Log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
-
-
-
+=============================================
 
 
 ==== Git commit ====
