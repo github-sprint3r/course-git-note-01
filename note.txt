@@ -1,16 +1,3 @@
-Start with google.com
-=========== Git Status ============	
-	name : git-status - Show the working tree status
-	synopsis : git status [<options>…​] [--] [<pathspec>…​]
-	description : Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git (and are not ignored by gitignore[5]). The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit.
-================================
-
--- Git reset change
-
-Start  w/ github
-﻿Start  w/ github
-Start  w/ github
-
 ========= Introduction to git =========
 ﻿Start  w/ github
 
@@ -23,24 +10,24 @@ Start  w/ github
 	> คุยกันเวลา push โค้ดขึ้น
 	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+===========================================
+
 
 =========  Git reset change ==========
 revert current change in current directory
 $ git checkout -- .
 or
 $ git checkout -- *
+===========================================
 
 
-To show each log in one line
+=========  To show each log in one line =========
 $git log --oneline
+===========================================
 
-
-=========== Git add ============
-Git add : ��ѧ�ҡ���ҧ������ǵ�ͧ������ git add ��͹�� git commit
-================================
 
 =========  Start with github.com ==========
-1.Register user on www.github.com first 
+1.Register user on www.github.com first
 2.Create ssh on your computer and copy SSH keys to your github
 3.Create a new respository
 4.Create Repository name
@@ -56,72 +43,70 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 ======= Good commit message =======
 	> ขึ้นต้นด้วย verb
 	> อธิบายเนื้อหาว่าทำอะไร
+================================
+
 
 ======= git remote ================
-command : git remote <action> <name remote> url 
+command : git remote <action> <name remote> url
 example : git remote add remote_name git@github.com:hello/hello
+=============================================
 
 
 ==========Force commit with amend ===========
- command : git commit --amend <action> 
+ command : git commit --amend <action>
  for amend same commit if you want to add same commitdetail
 =============================================
-<<<<<<< HEAD
-=======
 
->>>>>>> 69a754e06d499b8770688fa2523a698e6dbd09c5
-Issue#6 - Git log to filter log with date range
+
+======= Git log to filter log with date range =======
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
+=============================================
+
+
+======= Issue#6 - Git log to filter log with date range =======
+	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
+	example : git log --after="2015-09-12"
+=============================================
+
 
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
 	การแสดงการทำงาน ของการทำงาน
 		ตัวอย่างการเรียกใช้งานคำสั่ง
 		-> git log --oneline
-		-> git log --oneline --decorate 
+		-> git log --oneline --decorate
 		-> git log --oneline --decorate --graph
 		-> git log --stat
-		
+
 		Git Log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
+=============================================
 
 
-===================== Force commit with amend ===================== 
+===================== Force commit with amend =====================
 Force commit with amend
 	การเพิ่ม commit file เข้า commit ล่าสุด
 	git commit <filename> --amend
-
+=============================================
 
 
 ==== Git commit ====
 $git commit
-<<<<<<< HEAD
-====================
-
-
-
-
-========Git commit============
-$git commit
-==============================
-
-
-
-
-
-===================== Git log to filter log with date range ============================
+===========
 
 
 =========== Git log to show in pretty and graph ===========
+<<<<<<< HEAD
 $git log --oneline --decorate --graph
+=======
+ - git log --oneline --decorate --graph
+=============================================
+>>>>>>> ac469581ec804816906d09368133a0aa62713eeb
 
 
 ===================== Git log to filter log with date range ============================
-
-
-###### Git log to filter log with date range
 > git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
-###### end Git log to filter log with date range
+=============================================
