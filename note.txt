@@ -1,6 +1,6 @@
-Start  w/ github
+﻿Start  w/ github
 
-﻿0. Register
+Introduction to git
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -13,8 +13,10 @@ Start  w/ github
 4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
 
 -- Git reset change
-revert current change
+revert current change in current directory
 $ git checkout -- .
+or
+$ git checkout -- *
 
 =======
 To show each log in one line
@@ -42,6 +44,11 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
 
+
+Issue#6 - Git log to filter log with date range
+	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
+	example : git log --after="2015-09-12"
+
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
 	การแสดงการทำงาน ของการทำงาน
@@ -61,3 +68,13 @@ Git log to filter log with date range
 Force commit with amend
 	การเพิ่ม commit file เข้า commit ล่าสุด
 	git commit <filename> --amend
+
+=========== Git log to show in pretty and graph ===========
+ - git log --oneline --decorate --graph
+================================
+
+===================== Git log to filter log with date range ============================
+
+###### Git log to filter log with date range
+> git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
+###### end Git log to filter log with date range
