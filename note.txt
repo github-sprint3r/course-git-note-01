@@ -1,4 +1,13 @@
-Start with google.com
+Start  w/ github
 
-To show each log in one line
-$git log --oneline
+0. Register
+
+1. โครงสร้างโฟลเดอร์
+	> โปรเจ็คเดียวกันไม่ควรแยก Repo
+2. การใช้ Trunk / Branch / Tag
+	> Branch ไม่ควรเกิน 3 ซึ่ง 3 ก็ถือว่าเยอะมาก
+	> Tag ตรง Release
+3. Merge ให้บ่อยที่สุด
+	> คุยกันเวลา push โค้ดขึ้น
+	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
+4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
