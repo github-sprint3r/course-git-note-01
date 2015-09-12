@@ -1,10 +1,3 @@
-Start  w/ github
-
-0. Register
-=======
-﻿0. Register
->>>>>>> bb3dd00841405a716bd97b39f3e0963f38328d80
-
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
 2. การใช้ Trunk / Branch / Tag
@@ -40,3 +33,7 @@ command : git remote <action> <name remote> url
 example : git remote add remote_name git@github.com:hello/hello
 ###### end git remote
 
+==========Force commit with amend ===========
+ command : git commit --amend <action> 
+ for amend same commit if you want to add same commitdetail
+=============================================
