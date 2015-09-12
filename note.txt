@@ -58,3 +58,9 @@ Git log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
+
+===================== Git log to filter log with date range ============================
+
+###### Git log to filter log with date range
+> git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
+###### end Git log to filter log with date range
