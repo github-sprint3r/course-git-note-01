@@ -1,3 +1,16 @@
+Start with google.com
+=========== Git Status ============	
+	name : git-status - Show the working tree status
+	synopsis : git status [<options>‚Ä¶‚Äã] [--] [<pathspec>‚Ä¶‚Äã]
+	description : Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git (and are not ignored by gitignore[5]). The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit.
+================================
+
+-- Git reset change
+
+Start  w/ github
+ÔªøStart  w/ github
+Start  w/ github
+
 ========= Introduction to git =========
 ÔªøStart  w/ github
 
@@ -20,6 +33,11 @@ $ git checkout -- *
 
 To show each log in one line
 $git log --oneline
+
+
+=========== Git add ============
+Git add : À≈—ß®“° √È“ß‰ø≈Ï·≈È«µÈÕß„™È§” —Ëß git add °ËÕπ®– git commit
+================================
 
 =========  Start with github.com ==========
 1.Register user on www.github.com first 
@@ -48,11 +66,13 @@ example : git remote add remote_name git@github.com:hello/hello
  command : git commit --amend <action> 
  for amend same commit if you want to add same commitdetail
 =============================================
+<<<<<<< HEAD
+=======
 
+>>>>>>> 69a754e06d499b8770688fa2523a698e6dbd09c5
 Issue#6 - Git log to filter log with date range
 	command : git log --after="YYYY-MM-DD" --before="YYYY-MM-DD"
 	example : git log --after="2015-09-12"
-
 
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
@@ -78,12 +98,29 @@ Force commit with amend
 
 ==== Git commit ====
 $git commit
+<<<<<<< HEAD
+====================
+
+
+
+
+========Git commit============
+$git commit
+==============================
+
+
+
+
+
+===================== Git log to filter log with date range ============================
+
 
 =========== Git log to show in pretty and graph ===========
  - git log --oneline --decorate --graph
 
 
 ===================== Git log to filter log with date range ============================
+
 
 ###### Git log to filter log with date range
 > git log --since="2015-09-12T16:36:00-07:00" --until="2015-09-12T20:36:00-07:00"
