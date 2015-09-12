@@ -80,7 +80,7 @@ Force commit with amend
 $git commit
 
 =========== Git log to show in pretty and graph ===========
- - git log --oneline --decorate --graph
+$git log --oneline --decorate --graph
 
 
 ===================== Git log to filter log with date range ============================
