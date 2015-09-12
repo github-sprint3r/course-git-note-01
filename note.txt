@@ -1,4 +1,62 @@
-Start with google.com
+Start  w/ github
 
-#Git log to show in pretty and graph
+﻿0. Register
+
+1. โครงสร้างโฟลเดอร์
+	> โปรเจ็คเดียวกันไม่ควรแยก Repo
+2. การใช้ Trunk / Branch / Tag
+	> Branch ไม่ควรเกิน 3 ซึ่ง 3 ก็ถือว่าเยอะมาก
+	> Tag ตรง Release
+3. Merge ให้บ่อยที่สุด
+	> คุยกันเวลา push โค้ดขึ้น
+	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
+4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+
+-- Git reset change
+revert current change
+$ git checkout -- .
+
+=======
+To show each log in one line
+$git log --oneline
+
+=========  Start with github.com ==========
+1.Register user on www.github.com first 
+2.Create ssh on your computer and copy SSH keys to your github
+3.Create a new respository
+4.Create Repository name
+5.Choose Public and click create repository
+===========================================
+
+
+=========== Git add ============
+Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
+================================
+
+
+======= Good commit message =======
+	> ขึ้นต้นด้วย verb
+	> อธิบายเนื้อหาว่าทำอะไร
+
+======= git remote =======
+command : git remote <action> <name remote> url 
+example : git remote add remote_name git@github.com:hello/hello
+
+
+===================== Git log to filter log with date range ============================
+Git log to filter log with date range
+	การแสดงการทำงาน ของการทำงาน
+		ตัวอย่างการเรียกใช้งานคำสั่ง
+		-> git log --oneline
+		-> git log --oneline --decorate 
+		-> git log --oneline --decorate --graph
+		-> git log --stat
+		
+		Git Log to filter log with date range
+		-> git log --after="2014-7-1"
+		-> get log --after="yesterday"
+		-> git log --after="2014-7-1" --before="2014-7-4"
+
+=========== Git log to show in pretty and graph ===========
  - git log --oneline --decorate --graph
+================================
