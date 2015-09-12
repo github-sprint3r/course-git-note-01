@@ -1,5 +1,21 @@
-Start with google.com
+Start  w/ github
 
+0. Register
+
+1. โครงสร้างโฟลเดอร์
+	> โปรเจ็คเดียวกันไม่ควรแยก Repo
+2. การใช้ Trunk / Branch / Tag
+	> Branch ไม่ควรเกิน 3 ซึ่ง 3 ก็ถือว่าเยอะมาก
+	> Tag ตรง Release
+3. Merge ให้บ่อยที่สุด
+	> คุยกันเวลา push โค้ดขึ้น
+	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
+4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+=======
+
+-- Git reset change
+
+=======
 To show each log in one line
 $git log --oneline
 
@@ -12,3 +28,4 @@ Git add : ��ѧ�ҡ���ҧ������ǵ�ͧ������ git add ��͹�� git commit
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
 ###### end git remote
+=======
