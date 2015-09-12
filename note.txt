@@ -42,7 +42,6 @@ Git add : หลังจากสร้างไฟล์แล้วต้อ�
 command : git remote <action> <name remote> url 
 example : git remote add remote_name git@github.com:hello/hello
 
-
 ===================== Git log to filter log with date range ============================
 Git log to filter log with date range
 	การแสดงการทำงาน ของการทำงาน
@@ -56,3 +55,9 @@ Git log to filter log with date range
 		-> git log --after="2014-7-1"
 		-> get log --after="yesterday"
 		-> git log --after="2014-7-1" --before="2014-7-4"
+
+
+===================== Force commit with amend ===================== 
+Force commit with amend
+	การเพิ่ม commit file เข้า commit ล่าสุด
+	git commit <filename> --amend
