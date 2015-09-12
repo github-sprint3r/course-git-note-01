@@ -1,9 +1,6 @@
 Start  w/ github
 
 0. Register
-=======
-﻿0. Register
->>>>>>> bb3dd00841405a716bd97b39f3e0963f38328d80
 
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -21,6 +18,15 @@ Start  w/ github
 To show each log in one line
 $git log --oneline
 
+=========  Start with github.com ==========
+1.Register user on www.github.com first 
+2.Create ssh on your computer and copy SSH keys to your github
+3.Create a new respository
+4.Create Repository name
+5.Choose Public and click create repository
+===========================================
+
+=======
 
 =========== Git add ============
 Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
