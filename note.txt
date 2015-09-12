@@ -1,1 +1,4 @@
 Start with google.com
+
+To show each log in one line
+$git log --oneline
