@@ -7,3 +7,8 @@ $git log --oneline
 =========== Git add ============
 Git add : หลังจากสร้างไฟล์แล้วต้องใช้คำสั่ง git add ก่อนจะ git commit
 ================================
+
+###### git remote
+command : git remote <action> <name remote> url 
+example : git remote add remote_name git@github.com:hello/hello
+###### end git remote
